@@ -8,12 +8,12 @@ from django.conf.urls.static import static
 
 schema_view = get_schema_view(
     openapi.Info(
-        title="Clarusway StockApp API",
+        title="API",
         default_version="v1",
-        description="Clarusway StockApp API",
+        description="API",
         terms_of_service="#",
         # Change e-mail on this line!
-        contact=openapi.Contact(email="anthonyharold67@gmail.com"),
+        contact=openapi.Contact(email="ekremufacik07@gmail.com"),
         license=openapi.License(name="BSD License"),
     ),
     public=True,
